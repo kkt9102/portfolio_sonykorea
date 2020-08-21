@@ -1,0 +1,219 @@
+/* 미디어쿼리 */
+@media (max-width:1280px) {
+    .menu-box-2 {
+        display: none;
+    }
+    .width1280-icon {
+        display: block;
+    }
+    .mobile {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+
+}
+@media (max-width:1215px) {
+  .mobile-res {
+    float: none;
+    white-space: nowrap;
+  }
+  .mobile-res:first-child {
+    margin-bottom: 50px;
+  }
+  .mobile-res:last-child {
+    float: right;
+  }
+  .rocation {
+    transform: translateY(180%);
+  }
+}
+@media (max-width:979px) {
+  .main-banner > .text-box {
+    position: relative;
+    top:100%;
+  }
+  .menu-box-1 > ul > li > a {
+    font-size:12px;
+  }
+  .menu-box-1 > ul > li > a > span > .arrow-icon {
+    margin-top: -5px;
+    transform: translateY(50%) rotate(180deg);
+  }
+  .main-banner > .text-box > div {
+    transform: translateY(0%);
+    bottom:0;
+  }
+  .main-banner > .text-box > div >.item-title, .main-banner > .text-box > div > .item-name {
+    color: #000;
+  }
+  .main-banner > .text-box > div > .item-name {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .main-banner > .text-box > div > .item-name > span {
+    font-size: 12px;
+  }
+  .main-banner > .text-box > div >.item-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .main-slider {
+    overflow-X: hidden;
+  }
+  .main-slider > .dots-box {
+    display: none;
+  }
+  .main-slider > .mobile-dots-box {
+    display: block;
+  }
+  .main-slider>.slider> li {
+    width:780px;
+    border:1px solid red;
+    
+  }
+  /*whats-new 커스텀 */
+  .store-move ,.new-item-2 {
+    width: 50%;
+    height: 55%;
+  }
+  .store-move > a > .store-move-btn {
+    padding:10px;
+  }
+  .new-item-2 > a > .img {
+    background-size: cover;
+    background-position: 0;
+  }
+  .new-item-1 > a >.img,.new-item-3 > a >.img,.new-item-4 > a >.img,.new-item-5 > a >.img {
+    height: 50%;
+  }
+  .new-item-1 {
+    left:0;
+    width: 24%;
+    top:350px;
+  }
+
+    .new-item-2 {
+    left:52%;
+  }
+  .new-item-3 {
+    left:26%;
+    width: 24%;
+    top:350px;
+  }
+  .new-item-4 {
+    left:52%;
+    top:350px;
+    width: 24%;
+  }
+  .new-item-5 {
+    left: 78%;
+    top:350px;
+    width: 24%;
+  }
+  /* slider 커스텀 */
+
+  .main-slider {
+    display:none;
+  }
+  .mobile-slider {
+    display: block;
+    
+  }
+  .mobile-slider > .slider {
+    overflow: hidden;
+  }
+  /* latest-news-section 커스텀 */
+  .news-list {
+    display: none;
+  }
+  .mobile-news-list {
+    display: block;
+  }
+  /* bottom-site-map 커스텀 */
+  .bottom-site-menu-box-1 > ul:first-child {
+    float: none;
+  }
+  .bottom-site-menu-box-1 > ul:first-child > div {
+    float: left;
+  }
+  .bottom-site-menu-box-1 > ul:first-child > li {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: right;
+  }
+}
+
+@media (min-width:769px) {
+  .part-1.active {
+    left:0;
+  }   
+}
+@media (max-width:768px) {
+  .mobile-menu-box-1,.mobile-top-bar,.moblie-menu-bg  {
+    display: block;
+  }
+  .top-bar,.top-bar > .menu-box-1,.top-bar >  .logo {
+        display: none;
+    }
+    .main-banner > .img {
+      height: 460px;
+      background-size: cover;
+    }
+    
+}
+@media (max-width:568px) {
+  /*bottom-site-map 커스텀 */
+.rocation {
+  float:none;
+  width: 40%;
+  transform: translateY(0);
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tr-last-mobile {
+  display: block;
+}
+.bottom-site-menu-box-2 > .sns-icon {
+  width: 100%;
+}
+.mobile-res {
+ display:block;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.mobile-res:first-child > li {
+  width: calc(100%/3);
+  margin-bottom: -10px;
+}
+.mobile-res:last-child {
+  width: 100%;
+}
+.mobile-res:last-child > li:first-child {
+  margin-left: 38%;
+}
+.bottom-site-menu-box-2 > .sns-icon > .mobile-res:last-child > li:first-child > a {
+  margin-left: 0;
+}
+ .bottom-site-menu-box-1 {
+   display: none;
+ }
+ .bottom-site-menu-box-3 {
+   text-align: center;
+ }
+ .bottom-site-menu-box-3 > ul > li {
+   float: none;
+ }
+ .bottom-site-menu-box-3 > ul > li > a {
+   padding:10px 0;
+ }
+.mobile-bottom-site-menu-box-1 {
+  display:block;
+}
+
+
+}

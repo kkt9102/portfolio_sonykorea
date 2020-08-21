@@ -1,0 +1,192 @@
+.new-item {
+    height: 598px;
+}
+.new-item > ul {
+    height: 100%;
+}
+.new-item > ul > li {
+    position: absolute;
+    transition: left .3s, width .3s, height .3s, top .3s;
+}
+.new-item > ul > li > a {
+    height: 100%;
+}
+.new-item > ul > li > a > .text-box > .item-title {
+    color:#2f353d;
+    font-size: 13px;
+    font-weight: 700;
+    word-break: keep-all;
+    margin-top: 5px;
+}
+.new-item > ul > li > a > .text-box > .item-code {
+    color:#747481;
+    font-size: 11px;
+    font-weight: 700;
+}
+.new-item > ul > li > a > .text-box > .item-price {
+    color:#747481;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.new-item > ul > li > a > .text-box > .item-price > span {
+    font-weight: 500;
+}
+.new-item > ul > li > a > .text-box > .item-price::after {
+    content: "¹";
+    color:#5d58f5;
+    font-weight: 300;
+}
+.new-item > ul > li > a > .img {
+    transition: background-color .2s;
+}
+.new-item > ul > li:hover > a > .img {
+    background-color: #e8edf3;
+}
+/* store-move 커스텀 */
+.store-move {
+    width:38.6%;
+    height: 280px;
+    background-color:#4f6b85;
+}
+.store-move > .title {
+    color: #fff;
+    font-size:26px;
+}
+.store-move > a,.store-move > .title {
+    margin-left: 40px;
+}
+.store-move > a {
+    margin-top: 90px;
+}
+.store-move > a > .store-move-btn {
+    background-color: #f3f4f6;
+    font-size:13px;
+    font-weight: 700;
+    padding:12px 20px 16px 20px;
+}
+.new-item-1,.new-item-3,.new-item-4,.new-item-5 {
+    width: 18.487%;
+    height: 280px;
+}
+.new-item > ul > li:not(:first-child) > a > .img {
+    position: relative;
+}
+.new-item > ul > li:not(:first-child) > a > .img > span {
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin: 5px 8px;
+    color: #cdcdcd;
+    transition: color .5s;
+}
+
+.new-item > ul > li:not(:first-child) > a > .like-heart {
+    position: absolute;
+    color: #fff;
+    left:-10px;
+    bottom:150px;
+    font-size: 12px;
+    background: #2f353d;
+    padding:15px 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+}
+.new-item > ul > li:not(:first-child) > a > .like-heart::after {
+    content:"";
+    position: absolute;
+    bottom:-5px;
+    left:18px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #2f353d;
+}
+.new-item > ul > li:not(:first-child) > a >.like-heart.active {
+    opacity: 1;
+    visibility: visible;
+}
+.new-item > ul > li:not(:first-child) > a > .img > span:hover {
+    color:#dc3a1a;
+}
+/* 1190 * 2.016% = 239.904px */
+/* 1190 * 40.33% = 479.927px */
+/* 1190 * 38.6% = 459.34px */
+/* new-item-1 커스텀 */
+.new-item-1 {
+    left: 40.33%;
+}
+.new-item-1 > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/53d5d860b293bac0afad1a5181e6e02a.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    height: 160px;
+    background-color: #f1f5f9;
+}
+/* 598 * 97.82% = 584.9636% */
+/* 598 * 51.5% = 307.97px */
+/* 598 * 79.42% = 474.9316px */
+/* 598 * 26.7% = 159.666px */
+/* 598 * 46.82% = 279.9863px */
+/* new-item-2 커스텀 */
+.new-item-2 {
+    left:61.1%;
+    width:38.6%;
+    height: 97.82%;
+    min-height: 51.5%;
+}   
+.new-item-2 > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/c6c0ac48054e00c4da7f44ab78df8a2b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    height: 79.42%;
+    background-color: #f1f5f9;
+}
+/* new-item-3 커스텀 */
+.new-item-3 {
+    top:305px;
+    left:0;
+}
+.new-item-3 > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/c8a930c97af5746b7120d4b639cfe813.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    height: 160px;
+    background-color: #f1f5f9;
+}
+/* new-item-4 커스텀 */
+.new-item-4 {
+    top:305px;
+    left: 20.16%;
+}
+.new-item-4 > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/0db517b7884d87c665c1ca403bc22ce2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    height: 160px;
+    background-color: #f1f5f9;
+}
+/* new-item-5 커스텀 */
+.new-item-5 {
+    top:305px;
+    left: 40.33%;
+}
+.new-item-5 > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/1b6af17f802705b185c2832ff6861696.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    width: 100%;
+    height: 160px;
+    background-color: #f1f5f9;
+}

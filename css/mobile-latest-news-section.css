@@ -1,0 +1,171 @@
+.mobile-news-list {
+    display: none;
+}
+.latest-news-section {
+    background-color: #f1f5f9;
+}
+.latest-news-section .page-title {
+    padding-top: 55px;
+}
+.latest-news-section .tr {
+    width: 100%;
+    height: 3px;
+    background-color: #dfdfdf;
+}
+.latest-news-section .mobile-news-list > .slider > nav {
+    width: 100%;
+    transition: margin-left .3s;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul {
+    margin-bottom: 65px;
+    width: calc(100% * 3);
+    
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li {
+    width: calc(100%/6);
+    position: relative;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li:first-child {
+    margin-left: 5px;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li:nth-child(2) {
+    margin-right: 5px;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li:last-child {
+    margin-left: 5px;
+}
+.mobile-news-list {
+    margin-top: 35px;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a {
+    height: 390px;
+    width: 97%;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a > .img::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 97%;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    transition: background .3s;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li:hover > a > .img::after {
+    background: rgba(255,255,255,.1);
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a > .text-box {
+    position: absolute;
+    bottom:0;
+    width: 97%;
+    height: 35%;
+    background-color: #212530;
+    word-break: keep-all;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a > .text-box > .title {
+    color:#bcbccc;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a > .text-box > .sub-title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 10%;
+    position: absolute;
+    bottom:15%;
+    transition: color .3s .3s;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > li > a > .text-box > .sub-title:hover {
+    color: #83838f;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > .item-event > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/1de4300653096d3cea68149786e13ec7.webp);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > .sony-korea-news > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/e368e03cc7d7716404170bc791c83772.webp);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.latest-news-section .mobile-news-list > .slider > nav > ul > .sony-korea-introduce > a > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/a02a39a4d3ff460488c8a61a76db5537.webp);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.tr-last {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+}
+.sub-ex-btn {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #2f353d;
+}
+.sub-ex-btn:hover .arrow-icon {
+    fill: #2f353d;
+}
+.sub-ex-btn .arrow-icon {
+    transform: rotate(180deg) translateY(-50%) translateX(50%);
+    fill: #666;
+}
+.sub-ex-btn > span.active .arrow-icon {
+    transform: rotate(360deg) translateY(0%) translateX(-50%);
+}
+.sub-ex-text {
+    height: 0;
+    overflow: hidden;
+    transition: height .2s;
+    
+}
+.sub-ex-text.active {
+    height: 350px;
+
+}
+.sub-ex-text > li {
+    margin: 30px 0;
+    font-size: 13px;
+}
+.sub-ex-text > li > span:first-child {
+    font-weight: 900;
+    margin-right: 20px;
+
+}
+.latest-news-section .mobile-news-list > .slider {
+}
+.latest-news-section .mobile-news-list > .slider > .dots-box {
+    position: absolute;
+    bottom:-5%;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.latest-news-section .mobile-news-list > .slider > .dots-box > .dot{
+    width: 8px;
+    height: 8px;
+    margin: 0 2.5px;
+    background-color: #bcbccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.latest-news-section .mobile-news-list > .slider > .dots-box > .dot.active {
+    background-color: #2f353d;
+}

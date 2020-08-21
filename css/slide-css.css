@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+/* main-slider 커스텀 */
+
+
+.main-slider {
+    height: 530px;
+}
+.main-slider>.slider {
+    height: 100%;
+    width: calc(420px*8 + 780px);
+    transition: margin-left .3s;
+    overflow-X: hidden;
+    /*margin-left: 0 dot-1*/
+    /*margin-left: -1205px;   dot-2*/
+    /*margin-left: -2405px;   dot-3*/
+    /*margin-left: -2811px;   dot-4*/
+}
+
+
+
+.main-slider>.slider>.slide-item-1 {
+    width: 785px;
+    height: 490px;
+}
+
+.main-slider>.slider>li {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+.main-slider>.slider>li > a > .img::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    transition: background .2s;
+} 
+.main-slider>.slider>li:hover > a > .img::after {
+    
+    background: rgba(255,255,255,0.1);
+}
+
+.main-slider>.slider>li>a>.text-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.main-slider>.slider>li:not(:first-child) {
+    width: 375px;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-slider>.slider>li>a>.text-box>.item-name,
+.sub-title {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.main-slider>.slider>li>a>.text-box span {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.main-slider>.slider>li:not(:first-child)>a>.text-box>.item-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+/* slide-item-1 커스텀 */
+
+.main-slider>.slider>.slide-item-1>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/e784616d8c40a5cbcf8d17cec6379d29.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.main-slider>.slider>.slide-item-1>a>.text-box {
+    color: #706c7a;
+    background-color: rgba(243, 244, 246, 0.95);
+    height: 31%;
+}
+
+.main-slider>.slider>.slide-item-1>a>.text-box>.item-title {
+    font-size: 1.875rem;
+}
+
+.main-slider>.slider>.slide-item-1>a>.text-box>div {
+    margin-left: 100px;
+}
+
+.main-slider>.slider>.slide-item-1>a>.text-box>.item-name,
+.main-slider>.slider>.slide-item-1>a>.text-box>.sub-title {
+    color: #6F6F7B;
+}
+.main-slider>.slider>.slide-item-1>a>.text-box>.item-name {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+/* slide-item-2 커스텀 */
+.main-slider>.slider>.main-slider>.slider>.slide-item-2 {
+    margin-right: 30px;
+}
+.main-slider>.slider>.slide-item-2>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/d10be6a1d82dec3172f59cd807b40f62.webp);
+    width: 100%;
+    height: 100%;
+}
+
+.main-slider>.slider>.slide-item-2>a>.text-box {
+    color: #bcbccc;
+    background-color: rgba(33, 37, 48, 0.95);
+}
+
+.main-slider>.slider>.slide-item-2>a>.text-box>div {
+    margin: 0 40px;
+}
+
+.main-slider>.slider>.slide-item-2>a>.text-box>.item-name {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-2>a>.text-box>.item-title {
+    margin-bottom: 15px;
+}
+
+/* slide-item-3 커스텀 */
+.main-slider>.slider>.slide-item-3>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/be5d3f4ef04657d7db614da2da83f7ee.webp);
+    width: 100%;
+    height: 100%;
+}
+
+.main-slider>.slider>.slide-item-3>a>.text-box {
+    color: #fff;
+}
+
+.main-slider>.slider>.slide-item-3>a>.text-box>div {
+    margin: 0 35px;
+}
+
+.main-slider>.slider>.slide-item-3>a>.text-box>.item-name {
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-3>a>.text-box>.item-title {
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+
+/* slide-item-4 커스텀 */
+.main-slider>.slider>.slide-item-4>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/ad0f9b31747aa4df4b9495ec857b76cb.webp);
+    width: 100%;
+    height: 100%;
+}
+.main-slider>.slider>.slide-item-4>a>.text-box {
+    color: #3c4c74;
+}
+
+.main-slider>.slider>.slide-item-4>a>.text-box>div {
+    margin: 0 35px;
+}
+
+.main-slider>.slider>.slide-item-4>a>.text-box>.item-name {
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-4>a>.text-box>.item-title {
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+/* slide-item-5 커스텀 */
+.main-slider>.slider>.slide-item-5>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/d743b85597e73b33cefb0150ed60ca64.webp);
+    width: 100%;
+    height: 100%;
+}
+.main-slider>.slider>.slide-item-5>a>.text-box {
+    color: #3c4c74;
+    background-color: rgba(243,244,246,0.95);
+}
+
+.main-slider>.slider>.slide-item-5>a>.text-box>div {
+    margin: 0 40px;
+}
+
+.main-slider>.slider>.slide-item-5>a>.text-box>.item-name {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-5>a>.text-box>.item-title {
+    margin-bottom: 15px;
+}
+/* slide-item-6 커스텀 */
+.main-slider>.slider>.slide-item-6>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/28a2e77c71d89251c5f027a0a2fd8a62.webp);
+    width: 100%;
+    height: 100%;
+}
+
+.main-slider>.slider>.slide-item-6>a>.text-box {
+    color: #fff;
+}
+
+.main-slider>.slider>.slide-item-6>a>.text-box>div {
+    margin: 0 35px;
+}
+
+.main-slider>.slider>.slide-item-6>a>.text-box>.item-name {
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-6>a>.text-box>.item-title {
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+/* slide-item-7 커스텀 */
+.main-slider>.slider>.slide-item-7>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/sp800n.webp?dummy123123);
+    width: 100%;
+    height: 100%;
+}
+.main-slider>.slider>.slide-item-7>a>.text-box {
+    color: #fff;
+}
+
+.main-slider>.slider>.slide-item-7>a>.text-box>div {
+    margin: 0 35px;
+}
+
+.main-slider>.slider>.slide-item-7>a>.text-box>.item-name {
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-7>a>.text-box>.item-title {
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+/* slide-item-8 커스텀 */
+.main-slider>.slider>.slide-item-8>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/a7r4.webp?dummy123123);
+    width: 100%;
+    height: 100%;
+}
+.main-slider>.slider>.slide-item-8>a>.text-box {
+    color: #fff;
+}
+
+.main-slider>.slider>.slide-item-8>a>.text-box>div {
+    margin: 0 35px;
+}
+
+.main-slider>.slider>.slide-item-8>a>.text-box>.item-name {
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-8>a>.text-box>.item-title {
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+/* slide-item-9 커스텀 */
+.main-slider>.slider>.slide-item-9>a>.img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/sonykorea/rx100.webp?dummy123123);
+    width: 100%;
+    height: 100%;
+}
+.main-slider>.slider>.slide-item-9>a>.text-box {
+    color: #bcbccc;
+    background-color: rgba(33, 37, 48, 0.95);
+}
+
+.main-slider>.slider>.slide-item-9>a>.text-box>div {
+    margin: 0 40px;
+}
+
+.main-slider>.slider>.slide-item-9>a>.text-box>.item-name {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main-slider>.slider>.slide-item-9>a>.text-box>.item-title {
+    margin-bottom: 15px;
+}
+
+
+
+/* dots-box 커스텀 */
+.main-slider>.dots-box {
+    position: absolute;
+    bottom:0;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-slider>.dots-box>.dot ,.mobile-dots-box>.dot{
+    width: 8px;
+    height: 8px;
+    margin: 0 2.5px;
+    background-color: #bcbccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mobile > .main-slider>.dots-box>.dot.active {
+    background-color: #2f353d;
+}
+
+.mobile-slider {
+    display:none;
+}
