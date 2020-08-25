@@ -175,6 +175,11 @@ $(document).ready(function(){
   })
 
 
+  function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
 
 
 $(function(){
@@ -186,4 +191,5 @@ $(function(){
     mobile_bottom_site_map();
     sub_ex_btn();
     mobile_click();
+    alerted();
 });

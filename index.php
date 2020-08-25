@@ -26,6 +26,15 @@
     <!--    font-family: "SST W01 Roman","Malgun Gothic",Dotum,"Heiti TC",Roboto,Droid,"Helvetica Neue",Helvetica,Arial,sans-serif;
 -->
 
+    <!-- 모작페이지 알람 -->
+    <div class="alerted active">
+        <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 페이지 입니다.
+            <div class="close-btn text-align-center">
+                <div class="close-text inline-block">확인</div>
+            </div>
+        </div>
+    </div>
+    <!-- 모작페이지 알람 끝 -->
     <!-- mobile-menu-box-1 HTML -->
     <div class="all-page">
         <div class="mobile-menu-box-1">
@@ -749,15 +758,50 @@
                         </ul>
                     </div>
                 </div>
-                </div>
-            </section>
-            <!-- lates-news-section HTML -->
-            <section class="latest-news-section">
-                <div class="mobile">
-                    <div class="con">
-                        <p class="page-title">LATEST NEWS</p>
-                        <div class="tr"></div>
-                        <div class="news-list">
+        </div>
+        </section>
+        <!-- lates-news-section HTML -->
+        <section class="latest-news-section">
+            <div class="mobile">
+                <div class="con">
+                    <p class="page-title">LATEST NEWS</p>
+                    <div class="tr"></div>
+                    <div class="news-list">
+                        <nav>
+                            <ul class="row">
+                                <li class="item-event cell">
+                                    <a href="#" class="block">
+                                        <div class="img"></div>
+                                        <div class="text-box">
+                                            <div class="title">제품/프로모션 이벤트</div>
+                                            <div class="sub-title">소니스토어 바로가기</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="sony-korea-news cell">
+                                    <a href="#" class="block">
+                                        <div class="img"></div>
+                                        <div class="text-box">
+                                            <div class="title">소니코리아 보도자료</div>
+                                            <div class="sub-title">소니스토어 뉴스룸</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="sony-korea-introduce cell">
+                                    <a href="#" class="block">
+                                        <div class="img"></div>
+                                        <div class="text-box">
+                                            <div class="title">About Sony, 소니코리아 연혁, 사회공헌, 환경 경영 이야기</div>
+                                            <div class="sub-title">소니코리아 소개</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- mobile-lates-news-section HTML -->
+                    <div class="mobile-news-list">
+                        <div class="slider relative">
                             <nav>
                                 <ul class="row">
                                     <li class="item-event cell">
@@ -789,302 +833,268 @@
                                     </li>
                                 </ul>
                             </nav>
-                        </div>
-                        <!-- mobile-lates-news-section HTML -->
-                        <div class="mobile-news-list">
-                            <div class="slider relative">
-                                <nav>
-                                    <ul class="row">
-                                        <li class="item-event cell">
-                                            <a href="#" class="block">
-                                                <div class="img"></div>
-                                                <div class="text-box">
-                                                    <div class="title">제품/프로모션 이벤트</div>
-                                                    <div class="sub-title">소니스토어 바로가기</div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="sony-korea-news cell">
-                                            <a href="#" class="block">
-                                                <div class="img"></div>
-                                                <div class="text-box">
-                                                    <div class="title">소니코리아 보도자료</div>
-                                                    <div class="sub-title">소니스토어 뉴스룸</div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="sony-korea-introduce cell">
-                                            <a href="#" class="block">
-                                                <div class="img"></div>
-                                                <div class="text-box">
-                                                    <div class="title">About Sony, 소니코리아 연혁, 사회공헌, 환경 경영 이야기</div>
-                                                    <div class="sub-title">소니코리아 소개</div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <div class="dots-box row">
-                                    <div class="dot active cell"></div>
-                                    <div class="dot cell"></div>
-                                </div>
+                            <div class="dots-box row">
+                                <div class="dot active cell"></div>
+                                <div class="dot cell"></div>
                             </div>
                         </div>
-                        <div class="sub-ex-btn">부가 기능
-                            <span class="">
-                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style="" viewBox="0 0 1024 1024"
-                                    focusable="false" x="0px" y="0px" width="16px" height="16px" version="1.1" tabindex="-1"
-                                    xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
-                                    <g focusable="false" tabindex="-1">
-                                        <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
-                                    </g>
-                                    <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
-                                        <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
-                                            tabindex="-1" />
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
                     </div>
-                    <div class="tr-last"></div>
-                    <ul class="sub-ex-text con">
-                        <li>
-                            <span>1</span>
-                            <span>판매가격은 사전공지 없이 변경될 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <span>2</span>
-                            <span>제품의 색상 및 치수는 실제와 다를 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <span>3</span>
-                            <span>표시된 제품 컬러 및 기능은 모델 및 국가에 따라 달라질 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <span>4</span>
-                            <span>4K: 3,840 x 2,160픽셀.</span>
-                        </li>
-                        <li>
-                            <span>5</span>
-                            <span>거주하는 국가 또는 지역에 따라 사용할 수 없는 기능이 있습니다. 제품에 설치되거나 제품을 통해 액세스할 수있는 소프트웨어/서비스의 일부 또는 전부는 사전
-                                통보없이
-                                변경,
-                                중단, 제거, 일시 중단 또는 해지될 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <span>6</span>
-                            <span>기능이나 사양은 사전 고지 없이 변경될 수 있습니다.</span>
-                        </li>
+                    <div class="sub-ex-btn">부가 기능
+                        <span class="">
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style="" viewBox="0 0 1024 1024"
+                                focusable="false" x="0px" y="0px" width="16px" height="16px" version="1.1" tabindex="-1"
+                                xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+                                <g focusable="false" tabindex="-1">
+                                    <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
+                                </g>
+                                <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
+                                    <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
+                                        tabindex="-1" />
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="tr-last"></div>
+                <ul class="sub-ex-text con">
+                    <li>
+                        <span>1</span>
+                        <span>판매가격은 사전공지 없이 변경될 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <span>제품의 색상 및 치수는 실제와 다를 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <span>표시된 제품 컬러 및 기능은 모델 및 국가에 따라 달라질 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <span>4</span>
+                        <span>4K: 3,840 x 2,160픽셀.</span>
+                    </li>
+                    <li>
+                        <span>5</span>
+                        <span>거주하는 국가 또는 지역에 따라 사용할 수 없는 기능이 있습니다. 제품에 설치되거나 제품을 통해 액세스할 수있는 소프트웨어/서비스의 일부 또는 전부는 사전
+                            통보없이
+                            변경,
+                            중단, 제거, 일시 중단 또는 해지될 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <span>6</span>
+                        <span>기능이나 사양은 사전 고지 없이 변경될 수 있습니다.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- bottom-site-map HTML -->
+        <section class="bottom-site-map">
+            <div class="mobile">
+                <div class="bottom-site-menu-box-1 con row">
+                    <ul class="cell row">
+                        <div class="title">매장 찾기</div>
+                        <li><a href="#" class="block">직영점 안내</a></li>
+                    </ul>
+                    <ul class="cell">
+                        <div class="title">고객지원</div>
+                        <li><a href="#" class="block">소니코리아 고객지원</a></li>
+                        <li><a href="#" class="block">소니스토어 고객지원</a></li>
+                        <li><a href="#" class="block">방송/업무용 솔루션 고객지원</a></li>
+                        <li><a href="#" class="block">매장찾기</a></li>
+                    </ul>
+                    <ul class="cell">
+                        <div class="title">제품정보</div>
+                        <li><a href="#" class="block">소비자 가전</a></li>
+                        <li><a href="#" class="block">전문가용 제품 및 솔루션</a></li>
+                        <li><a href="#" class="block">전자부품</a></li>
+                    </ul>
+                    <ul class="cell">
+                        <div class="title">뉴스 및 정보</div>
+                        <li><a href="#" class="block">뉴스/보도자료</a></li>
+                        <li><a href="#" class="block">Investor Relations</a></li>
                     </ul>
                 </div>
-            </section>
-            <!-- bottom-site-map HTML -->
-            <section class="bottom-site-map">
-                <div class="mobile">
-                    <div class="bottom-site-menu-box-1 con row">
-                        <ul class="cell row">
-                            <div class="title">매장 찾기</div>
-                            <li><a href="#" class="block">직영점 안내</a></li>
-                        </ul>
-                        <ul class="cell">
-                            <div class="title">고객지원</div>
-                            <li><a href="#" class="block">소니코리아 고객지원</a></li>
-                            <li><a href="#" class="block">소니스토어 고객지원</a></li>
-                            <li><a href="#" class="block">방송/업무용 솔루션 고객지원</a></li>
-                            <li><a href="#" class="block">매장찾기</a></li>
-                        </ul>
-                        <ul class="cell">
-                            <div class="title">제품정보</div>
-                            <li><a href="#" class="block">소비자 가전</a></li>
-                            <li><a href="#" class="block">전문가용 제품 및 솔루션</a></li>
-                            <li><a href="#" class="block">전자부품</a></li>
-                        </ul>
-                        <ul class="cell">
-                            <div class="title">뉴스 및 정보</div>
-                            <li><a href="#" class="block">뉴스/보도자료</a></li>
-                            <li><a href="#" class="block">Investor Relations</a></li>
-                        </ul>
-                    </div>
-                    <!-- mobile-bottm-site-menu-box-1 HTML -->
-                    <div class="mobile-bottom-site-menu-box-1 con ">
-                        <ul class="">
-                            <div class="title">
-                                <span class="text">
-                                    <span>매장 찾기</span>
-                                    <span>
-                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
-                                            viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px" height="16px"
-                                            version="1.1" tabindex="-1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
-                                            xml:space="preserve">
-                                            <g focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
-                                            </g>
-                                            <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
-                                                    tabindex="-1" />
-                                            </g>
-                                        </svg>
-                                    </span>
+                <!-- mobile-bottm-site-menu-box-1 HTML -->
+                <div class="mobile-bottom-site-menu-box-1 con ">
+                    <ul class="">
+                        <div class="title">
+                            <span class="text">
+                                <span>매장 찾기</span>
+                                <span>
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
+                                        viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px"
+                                        height="16px" version="1.1" tabindex="-1"
+                                        xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+                                        <g focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
+                                        </g>
+                                        <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
+                                                tabindex="-1" />
+                                        </g>
+                                    </svg>
                                 </span>
-                            </div>
-                            <li><a href="#" class="block">직영점 안내</a></li>
-                        </ul>
-                        <ul class="">
-                            <div class="title active">
-                                <span class="text">
-                                    <span>고객지원</span>
-                                    <span>
-                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
-                                            viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px" height="16px"
-                                            version="1.1" tabindex="-1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
-                                            xml:space="preserve">
-                                            <g focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
-                                            </g>
-                                            <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
-                                                    tabindex="-1" />
-                                            </g>
-                                        </svg>
-                                    </span>
-                                </span>
-                            </div>
-                            <li><a href="#" class="block">소니코리아 고객지원</a></li>
-                            <li><a href="#" class="block">소니스토어 고객지원</a></li>
-                            <li><a href="#" class="block">방송/업무용 솔루션 고객지원</a></li>
-                            <li><a href="#" class="block">매장찾기</a></li>
-                        </ul>
-                        <ul class="">
-                            <div class="title">
-                                <span class="text">
-                                    <span>제품정보</span>
-                                    <span>
-                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
-                                            viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px" height="16px"
-                                            version="1.1" tabindex="-1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
-                                            xml:space="preserve">
-                                            <g focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
-                                            </g>
-                                            <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
-                                                    tabindex="-1" />
-                                            </g>
-                                        </svg>
-                                    </span>
-                                </span>
-                            </div>
-                            <li><a href="#" class="block">소비자 가전</a></li>
-                            <li><a href="#" class="block">전문가용 제품 및 솔루션</a></li>
-                            <li><a href="#" class="block">전자부품</a></li>
-                        </ul>
-                        <ul class="">
-                            <div class="title">
-                                <span class="text">
-                                    <span>뉴스 및 정보</span>
-                                    <span>
-                                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
-                                            viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px" height="16px"
-                                            version="1.1" tabindex="-1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
-                                            xml:space="preserve">
-                                            <g focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
-                                            </g>
-                                            <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
-                                                <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
-                                                    tabindex="-1" />
-                                            </g>
-                                        </svg>
-                                    </span>
-                                </span>
-                            </div>
-                            <li><a href="#" class="block">뉴스/보도자료</a></li>
-                            <li><a href="#" class="block">Investor Relations</a></li>
-                        </ul>
-                    </div>
-                    <div class="bottom-site-menu-box-2 con row">
-                        <ul class="rocation cell">
-                            <li><a href="#" class="block"><span></span>대한민국</a></li>
-                        </ul>
-                        <div class="tr-last-mobile"></div>
-                        <ul class="sns-icon cell-right row">
-                            <div class="mobile-res row cell">
-                                <li class="cell"><a href="#" class="block">회사소개</a></li>
-                                <li class="cell"><a href="#" class="block">환경경영</a></li>
-                                <li class="cell"><a href="#" class="block">사회공헌</a></li>
-                            </div>
-                            <div class="mobile-res row cell">
-                                <li class="youtube cell">
-                                    <a href="#" class="block"><i class="fab fa-youtube"></i>
-                                    </a>
-                                    <div class="sns-flow-box">
-                                        <div class="title">YouTube 구독</div>
-                                        <div><a href="#"><span></span><span></span>YouTube</span></a><span
-                                                class="count">999+</span>
-                                        </div>
-                                        <div class="sub-title"><a href="#">YouTube 방문하기</a></div>
-                                        <div class="close-btn">
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="facebook cell">
-                                    <a href="#" class="block"><i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <div class="sns-flow-box">
-                                        <div class="title">Facebook에서 좋아요 누르기</div>
-                                        <div><a href="#"><span></span><span></span>좋아요</span><span class="count">19만개</span></a>
-                                        </div>
-                                        <div class="sub-title"><a href="#">Facebook 방문하기</a></div>
-                                        <div class="close-btn">
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="instagram cell">
-                                    <a href="#" class="block"><i class="fab fa-instagram"></i>
-                                    </a>
-                                    <div class="sns-flow-box">
-                                        <div class="title">인스타그램에서 팔로우하기</div>
-                                        <div class="sub-title"><a href="#">인스타그램에서 보기</a></div>
-                                        <div class="close-btn">
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="tr-last"></div>
-                    <!-- mobile-bottm-site-menu-box-1 끝 -->
-                    <div class="bottom-site-menu-box-3 con">
-                        <div class="copyright">COPYRIGHT © 2019. SONY KOREA CORPORATION. ALL RIGHTS RESERVED.</div>
-                        <ul class="row">
-                            <li class="cell"><a href="#" class="block">이용약관</a></li>
-                            <li class="cell"><a href="#" class="block">개인정보취급방침</a></li>
-                            <li class="cell"><a href="#" class="block">이메일주소무단수집거부</a></li>
-                            <li class="cell"><a href="#" class="block">SSL보안인증</a></li>
-                        </ul>
-                        <div class="text-box">
-                            <div>사업장주소 :서울특별시 영등포구 국제금융로 10 원아이에프씨 24F</div>
-                            <div>사업자등록번호 :106-81-23810</div>
-                            <div>통신판매번호 2012-서울영등포-1038 소니코리아 (주)</div>
-                            <div>대표이사 : Okura Kikuo | 개인정보관리책임자 : Okura Kikuo</div>
-                            <div>본 사이트의 컨텐츠는 저작권법의 보호를 받는 바,</div>
-                            <div>상업적 목적의 무단전재, 복사, 배포 등을 금합니다.</div>
-                            <div class="contact">TEL : 소니코리아 고객지원센터 1588-0911 E-MAIL : <span><a
-                                        href="#">cshelp@sony.co.kr</a></span></div>
+                            </span>
                         </div>
+                        <li><a href="#" class="block">직영점 안내</a></li>
+                    </ul>
+                    <ul class="">
+                        <div class="title active">
+                            <span class="text">
+                                <span>고객지원</span>
+                                <span>
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
+                                        viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px"
+                                        height="16px" version="1.1" tabindex="-1"
+                                        xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+                                        <g focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
+                                        </g>
+                                        <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
+                                                tabindex="-1" />
+                                        </g>
+                                    </svg>
+                                </span>
+                            </span>
+                        </div>
+                        <li><a href="#" class="block">소니코리아 고객지원</a></li>
+                        <li><a href="#" class="block">소니스토어 고객지원</a></li>
+                        <li><a href="#" class="block">방송/업무용 솔루션 고객지원</a></li>
+                        <li><a href="#" class="block">매장찾기</a></li>
+                    </ul>
+                    <ul class="">
+                        <div class="title">
+                            <span class="text">
+                                <span>제품정보</span>
+                                <span>
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
+                                        viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px"
+                                        height="16px" version="1.1" tabindex="-1"
+                                        xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+                                        <g focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
+                                        </g>
+                                        <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
+                                                tabindex="-1" />
+                                        </g>
+                                    </svg>
+                                </span>
+                            </span>
+                        </div>
+                        <li><a href="#" class="block">소비자 가전</a></li>
+                        <li><a href="#" class="block">전문가용 제품 및 솔루션</a></li>
+                        <li><a href="#" class="block">전자부품</a></li>
+                    </ul>
+                    <ul class="">
+                        <div class="title">
+                            <span class="text">
+                                <span>뉴스 및 정보</span>
+                                <span>
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" style=""
+                                        viewBox="0 0 1024 1024" focusable="false" x="0px" y="0px" width="16px"
+                                        height="16px" version="1.1" tabindex="-1"
+                                        xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+                                        <g focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="0,0.001 0,0 0.001,0" tabindex="-1" />
+                                        </g>
+                                        <g class="svg-navbar-darkgray" focusable="false" tabindex="-1">
+                                            <polygon focusable="false" points="238.485,778 480,536.485 721.515,778"
+                                                tabindex="-1" />
+                                        </g>
+                                    </svg>
+                                </span>
+                            </span>
+                        </div>
+                        <li><a href="#" class="block">뉴스/보도자료</a></li>
+                        <li><a href="#" class="block">Investor Relations</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-site-menu-box-2 con row">
+                    <ul class="rocation cell">
+                        <li><a href="#" class="block"><span></span>대한민국</a></li>
+                    </ul>
+                    <div class="tr-last-mobile"></div>
+                    <ul class="sns-icon cell-right row">
+                        <div class="mobile-res row cell">
+                            <li class="cell"><a href="#" class="block">회사소개</a></li>
+                            <li class="cell"><a href="#" class="block">환경경영</a></li>
+                            <li class="cell"><a href="#" class="block">사회공헌</a></li>
+                        </div>
+                        <div class="mobile-res row cell">
+                            <li class="youtube cell">
+                                <a href="#" class="block"><i class="fab fa-youtube"></i>
+                                </a>
+                                <div class="sns-flow-box">
+                                    <div class="title">YouTube 구독</div>
+                                    <div><a href="#"><span></span><span></span>YouTube</span></a><span
+                                            class="count">999+</span>
+                                    </div>
+                                    <div class="sub-title"><a href="#">YouTube 방문하기</a></div>
+                                    <div class="close-btn">
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="facebook cell">
+                                <a href="#" class="block"><i class="fab fa-facebook-f"></i>
+                                </a>
+                                <div class="sns-flow-box">
+                                    <div class="title">Facebook에서 좋아요 누르기</div>
+                                    <div><a href="#"><span></span><span></span>좋아요</span><span
+                                                class="count">19만개</span></a>
+                                    </div>
+                                    <div class="sub-title"><a href="#">Facebook 방문하기</a></div>
+                                    <div class="close-btn">
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="instagram cell">
+                                <a href="#" class="block"><i class="fab fa-instagram"></i>
+                                </a>
+                                <div class="sns-flow-box">
+                                    <div class="title">인스타그램에서 팔로우하기</div>
+                                    <div class="sub-title"><a href="#">인스타그램에서 보기</a></div>
+                                    <div class="close-btn">
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="tr-last"></div>
+                <!-- mobile-bottm-site-menu-box-1 끝 -->
+                <div class="bottom-site-menu-box-3 con">
+                    <div class="copyright">COPYRIGHT © 2019. SONY KOREA CORPORATION. ALL RIGHTS RESERVED.</div>
+                    <ul class="row">
+                        <li class="cell"><a href="#" class="block">이용약관</a></li>
+                        <li class="cell"><a href="#" class="block">개인정보취급방침</a></li>
+                        <li class="cell"><a href="#" class="block">이메일주소무단수집거부</a></li>
+                        <li class="cell"><a href="#" class="block">SSL보안인증</a></li>
+                    </ul>
+                    <div class="text-box">
+                        <div>사업장주소 :서울특별시 영등포구 국제금융로 10 원아이에프씨 24F</div>
+                        <div>사업자등록번호 :106-81-23810</div>
+                        <div>통신판매번호 2012-서울영등포-1038 소니코리아 (주)</div>
+                        <div>대표이사 : Okura Kikuo | 개인정보관리책임자 : Okura Kikuo</div>
+                        <div>본 사이트의 컨텐츠는 저작권법의 보호를 받는 바,</div>
+                        <div>상업적 목적의 무단전재, 복사, 배포 등을 금합니다.</div>
+                        <div class="contact">TEL : 소니코리아 고객지원센터 1588-0911 E-MAIL : <span><a
+                                    href="#">cshelp@sony.co.kr</a></span></div>
                     </div>
                 </div>
-            </section>
-            <div class="top-move-btn con fixed">
-                <div><i class="fas fa-chevron-up"></i></div>
             </div>
+        </section>
+        <div class="top-move-btn con fixed">
+            <div><i class="fas fa-chevron-up"></i></div>
         </div>
+    </div>
     </div>
 </body>
 
